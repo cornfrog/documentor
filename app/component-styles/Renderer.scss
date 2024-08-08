@@ -1,0 +1,22 @@
+.renderer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__title {
+        display: flex;
+        width: inherit;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #renderedText {
+        padding: 1rem;
+        border: 1px solid black;
+        height: 75vh;
+        width: 80%;
+        resize: none;
+    }
+}
