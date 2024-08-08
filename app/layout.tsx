@@ -4,7 +4,7 @@ import "./globals.scss";
 
 
 export const metadata: Metadata = {
-  title: "Documentor",
+  title: "Documaker",
   description: "Easily generates clean markdown files.",
 };
 
