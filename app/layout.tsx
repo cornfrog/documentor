@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1 className="title">Documentor</h1>
+        <h1 className="title">Documaker</h1>
         {children}
       </body>
     </html>

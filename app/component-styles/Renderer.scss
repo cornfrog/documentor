@@ -10,13 +10,23 @@
         width: inherit;
         justify-content: space-between;
         align-items: center;
+
+        &__text {
+            font-size: 1.5rem;
+        }
+
+        &__exportButton {
+            font-size: 1.1rem;
+        }
     }
+
     
     #renderedText {
         padding: 1rem;
         border: 1px solid black;
-        height: 75vh;
+        height: 70vh;
         width: 80%;
         resize: none;
+        overflow: scroll;
     }
 }

@@ -1,3 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/rem');
+@import url('https://fonts.cdnfonts.com/css/terminal');
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -5,6 +9,13 @@ html, body {
     overflow-x: hidden;
 }
 
-.title {
-    text-align: center;
+body {
+    background-color: #262626;
+    color: white;
+    font-family: 'REM', sans-serif;
+    .title {
+        text-align: center;
+        font-family: 'Terminal', sans-serif;
+        font-size: 3rem;
+    }
 }

@@ -28,7 +28,7 @@ const FileRenderer = (props: any) => {
         <div className="renderer">
             <section className="renderer__title">
                 <h3 className="renderer__title__text">Rendered File</h3>
-                <button className="renderer__title__exportButton" onClick={exportDocuments}>Export</button>
+                <button className="renderer__title__exportButton" onClick={exportDocuments}><>&#128190;</>Export</button>
             </section>
             <div id="renderedText" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
