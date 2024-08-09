@@ -15,8 +15,8 @@ export const docTemplate = (htmlContent:string | Promise<string>, documentTitle:
             margin: auto;
         }
     </style>
-    <body>
-        <div class="markdown-body">
+    <body class="markdown-body">
+        <div>
             ${htmlContent}
         </div>
     </body>
